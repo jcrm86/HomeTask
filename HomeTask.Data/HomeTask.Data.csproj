@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\HomeTask.Data.Models\HomeTask.Data.Models.csproj" />
+    <ProjectReference Include="..\HomeTask.Utils\HomeTask.Utils.csproj" />
   </ItemGroup>
 
 </Project>

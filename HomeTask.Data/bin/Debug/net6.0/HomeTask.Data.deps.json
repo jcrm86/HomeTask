@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v6.0": {
       "HomeTask.Data/1.0.0": {
         "dependencies": {
-          "HomeTask.Data.Models": "1.0.0"
+          "HomeTask.Data.Models": "1.0.0",
+          "HomeTask.Utils": "1.0.0"
         },
         "runtime": {
           "HomeTask.Data.dll": {}
@@ -17,6 +18,11 @@
       "HomeTask.Data.Models/1.0.0": {
         "runtime": {
           "HomeTask.Data.Models.dll": {}
+        }
+      },
+      "HomeTask.Utils/1.0.0": {
+        "runtime": {
+          "HomeTask.Utils.dll": {}
         }
       }
     }
@@ -28,6 +34,11 @@
       "sha512": ""
     },
     "HomeTask.Data.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HomeTask.Utils/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -8,7 +8,7 @@ namespace HomeTask.Data.Models
         public int ActivityId { get; set; }
 
         [Required]
-        public int Name { get; set; }
+        public string Name { get; set; }
 
         [Required]
         public string ClassrooomId { get; set; }

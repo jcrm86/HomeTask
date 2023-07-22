@@ -9,6 +9,7 @@
   <ItemGroup>
     <ProjectReference Include="..\HomeTask.Data.Models\HomeTask.Data.Models.csproj" />
     <ProjectReference Include="..\HomeTask.Data\HomeTask.Data.csproj" />
+    <ProjectReference Include="..\HomeTask.Utils\HomeTask.Utils.csproj" />
     <ProjectReference Include="..\HomeTask.View.Models\HomeTask.View.Models.csproj" />
   </ItemGroup>
 

@@ -11,6 +11,6 @@ namespace HomeTask.View.Models
         public int ActivityId { get; set; }
 
         [Required]
-        public string Password { get; set; }
+        public string StudentPassword { get; set; }
     }
 }

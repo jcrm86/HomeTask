@@ -6,7 +6,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "HomeTask.Data.Models": "1.0.0"
+          "HomeTask.Data.Models": "1.0.0",
+          "HomeTask.Utils": "1.0.0"
         },
         "compile": {
           "bin/placeholder/HomeTask.Data.dll": {}
@@ -23,6 +24,16 @@
         },
         "runtime": {
           "bin/placeholder/HomeTask.Data.Models.dll": {}
+        }
+      },
+      "HomeTask.Utils/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/HomeTask.Utils.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HomeTask.Utils.dll": {}
         }
       },
       "HomeTask.View.Models/1.0.0": {
@@ -48,6 +59,11 @@
       "path": "../HomeTask.Data.Models/HomeTask.Data.Models.csproj",
       "msbuildProject": "../HomeTask.Data.Models/HomeTask.Data.Models.csproj"
     },
+    "HomeTask.Utils/1.0.0": {
+      "type": "project",
+      "path": "../HomeTask.Utils/HomeTask.Utils.csproj",
+      "msbuildProject": "../HomeTask.Utils/HomeTask.Utils.csproj"
+    },
     "HomeTask.View.Models/1.0.0": {
       "type": "project",
       "path": "../HomeTask.View.Models/HomeTask.View.Models.csproj",
@@ -58,6 +74,7 @@
     "net6.0": [
       "HomeTask.Data >= 1.0.0",
       "HomeTask.Data.Models >= 1.0.0",
+      "HomeTask.Utils >= 1.0.0",
       "HomeTask.View.Models >= 1.0.0"
     ]
   },
@@ -100,6 +117,9 @@
             },
             "C:\\Users\\juanr\\Documents\\Tests\\Upwork2\\HomeTask\\HomeTask.Data\\HomeTask.Data.csproj": {
               "projectPath": "C:\\Users\\juanr\\Documents\\Tests\\Upwork2\\HomeTask\\HomeTask.Data\\HomeTask.Data.csproj"
+            },
+            "C:\\Users\\juanr\\Documents\\Tests\\Upwork2\\HomeTask\\HomeTask.Utils\\HomeTask.Utils.csproj": {
+              "projectPath": "C:\\Users\\juanr\\Documents\\Tests\\Upwork2\\HomeTask\\HomeTask.Utils\\HomeTask.Utils.csproj"
             },
             "C:\\Users\\juanr\\Documents\\Tests\\Upwork2\\HomeTask\\HomeTask.View.Models\\HomeTask.View.Models.csproj": {
               "projectPath": "C:\\Users\\juanr\\Documents\\Tests\\Upwork2\\HomeTask\\HomeTask.View.Models\\HomeTask.View.Models.csproj"

@@ -38,3 +38,5 @@ C:\Users\juanr\Documents\Tests\Upwork2\HomeTask\HomeTask\bin\Debug\net6.0\HomeTa
 C:\Users\juanr\Documents\Tests\Upwork2\HomeTask\HomeTask\bin\Debug\net6.0\HomeTask.View.Models.pdb
 C:\Users\juanr\Documents\Tests\Upwork2\HomeTask\HomeTask\bin\Debug\net6.0\HomeTask.Data.pdb
 C:\Users\juanr\Documents\Tests\Upwork2\HomeTask\HomeTask\bin\Debug\net6.0\HomeTask.Data.Models.pdb
+C:\Users\juanr\Documents\Tests\Upwork2\HomeTask\HomeTask\bin\Debug\net6.0\HomeTask.Utils.dll
+C:\Users\juanr\Documents\Tests\Upwork2\HomeTask\HomeTask\bin\Debug\net6.0\HomeTask.Utils.pdb

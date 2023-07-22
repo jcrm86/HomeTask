@@ -93,7 +93,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "HomeTask.Data.Models": "1.0.0"
+          "HomeTask.Data.Models": "1.0.0",
+          "HomeTask.Utils": "1.0.0"
         },
         "compile": {
           "bin/placeholder/HomeTask.Data.dll": {}
@@ -118,6 +119,7 @@
         "dependencies": {
           "HomeTask.Data": "1.0.0",
           "HomeTask.Data.Models": "1.0.0",
+          "HomeTask.Utils": "1.0.0",
           "HomeTask.View.Models": "1.0.0"
         },
         "compile": {
@@ -125,6 +127,16 @@
         },
         "runtime": {
           "bin/placeholder/HomeTask.Service.dll": {}
+        }
+      },
+      "HomeTask.Utils/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/HomeTask.Utils.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HomeTask.Utils.dll": {}
         }
       },
       "HomeTask.View.Models/1.0.0": {
@@ -492,6 +504,11 @@
       "type": "project",
       "path": "../HomeTask.Service/HomeTask.Service.csproj",
       "msbuildProject": "../HomeTask.Service/HomeTask.Service.csproj"
+    },
+    "HomeTask.Utils/1.0.0": {
+      "type": "project",
+      "path": "../HomeTask.Utils/HomeTask.Utils.csproj",
+      "msbuildProject": "../HomeTask.Utils/HomeTask.Utils.csproj"
     },
     "HomeTask.View.Models/1.0.0": {
       "type": "project",

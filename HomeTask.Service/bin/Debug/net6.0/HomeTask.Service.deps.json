@@ -10,6 +10,7 @@
         "dependencies": {
           "HomeTask.Data": "1.0.0",
           "HomeTask.Data.Models": "1.0.0",
+          "HomeTask.Utils": "1.0.0",
           "HomeTask.View.Models": "1.0.0"
         },
         "runtime": {
@@ -18,7 +19,8 @@
       },
       "HomeTask.Data/1.0.0": {
         "dependencies": {
-          "HomeTask.Data.Models": "1.0.0"
+          "HomeTask.Data.Models": "1.0.0",
+          "HomeTask.Utils": "1.0.0"
         },
         "runtime": {
           "HomeTask.Data.dll": {}
@@ -27,6 +29,11 @@
       "HomeTask.Data.Models/1.0.0": {
         "runtime": {
           "HomeTask.Data.Models.dll": {}
+        }
+      },
+      "HomeTask.Utils/1.0.0": {
+        "runtime": {
+          "HomeTask.Utils.dll": {}
         }
       },
       "HomeTask.View.Models/1.0.0": {
@@ -48,6 +55,11 @@
       "sha512": ""
     },
     "HomeTask.Data.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HomeTask.Utils/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
