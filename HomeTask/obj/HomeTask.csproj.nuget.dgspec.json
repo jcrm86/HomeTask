@@ -1,0 +1,344 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\juanr\\Documents\\Tests\\Upwork2\\HomeTask\\HomeTask\\HomeTask.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\juanr\\Documents\\Tests\\Upwork2\\HomeTask\\HomeTask.Data.Models\\HomeTask.Data.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\juanr\\Documents\\Tests\\Upwork2\\HomeTask\\HomeTask.Data.Models\\HomeTask.Data.Models.csproj",
+        "projectName": "HomeTask.Data.Models",
+        "projectPath": "C:\\Users\\juanr\\Documents\\Tests\\Upwork2\\HomeTask\\HomeTask.Data.Models\\HomeTask.Data.Models.csproj",
+        "packagesPath": "C:\\Users\\juanr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\juanr\\Documents\\Tests\\Upwork2\\HomeTask\\HomeTask.Data.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\juanr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\juanr\\Documents\\Tests\\Upwork2\\HomeTask\\HomeTask.Data\\HomeTask.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\juanr\\Documents\\Tests\\Upwork2\\HomeTask\\HomeTask.Data\\HomeTask.Data.csproj",
+        "projectName": "HomeTask.Data",
+        "projectPath": "C:\\Users\\juanr\\Documents\\Tests\\Upwork2\\HomeTask\\HomeTask.Data\\HomeTask.Data.csproj",
+        "packagesPath": "C:\\Users\\juanr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\juanr\\Documents\\Tests\\Upwork2\\HomeTask\\HomeTask.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\juanr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\juanr\\Documents\\Tests\\Upwork2\\HomeTask\\HomeTask.Data.Models\\HomeTask.Data.Models.csproj": {
+                "projectPath": "C:\\Users\\juanr\\Documents\\Tests\\Upwork2\\HomeTask\\HomeTask.Data.Models\\HomeTask.Data.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\juanr\\Documents\\Tests\\Upwork2\\HomeTask\\HomeTask.Service\\HomeTask.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\juanr\\Documents\\Tests\\Upwork2\\HomeTask\\HomeTask.Service\\HomeTask.Service.csproj",
+        "projectName": "HomeTask.Service",
+        "projectPath": "C:\\Users\\juanr\\Documents\\Tests\\Upwork2\\HomeTask\\HomeTask.Service\\HomeTask.Service.csproj",
+        "packagesPath": "C:\\Users\\juanr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\juanr\\Documents\\Tests\\Upwork2\\HomeTask\\HomeTask.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\juanr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\juanr\\Documents\\Tests\\Upwork2\\HomeTask\\HomeTask.Data.Models\\HomeTask.Data.Models.csproj": {
+                "projectPath": "C:\\Users\\juanr\\Documents\\Tests\\Upwork2\\HomeTask\\HomeTask.Data.Models\\HomeTask.Data.Models.csproj"
+              },
+              "C:\\Users\\juanr\\Documents\\Tests\\Upwork2\\HomeTask\\HomeTask.Data\\HomeTask.Data.csproj": {
+                "projectPath": "C:\\Users\\juanr\\Documents\\Tests\\Upwork2\\HomeTask\\HomeTask.Data\\HomeTask.Data.csproj"
+              },
+              "C:\\Users\\juanr\\Documents\\Tests\\Upwork2\\HomeTask\\HomeTask.View.Models\\HomeTask.View.Models.csproj": {
+                "projectPath": "C:\\Users\\juanr\\Documents\\Tests\\Upwork2\\HomeTask\\HomeTask.View.Models\\HomeTask.View.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\juanr\\Documents\\Tests\\Upwork2\\HomeTask\\HomeTask.View.Models\\HomeTask.View.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\juanr\\Documents\\Tests\\Upwork2\\HomeTask\\HomeTask.View.Models\\HomeTask.View.Models.csproj",
+        "projectName": "HomeTask.View.Models",
+        "projectPath": "C:\\Users\\juanr\\Documents\\Tests\\Upwork2\\HomeTask\\HomeTask.View.Models\\HomeTask.View.Models.csproj",
+        "packagesPath": "C:\\Users\\juanr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\juanr\\Documents\\Tests\\Upwork2\\HomeTask\\HomeTask.View.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\juanr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\juanr\\Documents\\Tests\\Upwork2\\HomeTask\\HomeTask\\HomeTask.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\juanr\\Documents\\Tests\\Upwork2\\HomeTask\\HomeTask\\HomeTask.csproj",
+        "projectName": "HomeTask",
+        "projectPath": "C:\\Users\\juanr\\Documents\\Tests\\Upwork2\\HomeTask\\HomeTask\\HomeTask.csproj",
+        "packagesPath": "C:\\Users\\juanr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\juanr\\Documents\\Tests\\Upwork2\\HomeTask\\HomeTask\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\juanr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\juanr\\Documents\\Tests\\Upwork2\\HomeTask\\HomeTask.Service\\HomeTask.Service.csproj": {
+                "projectPath": "C:\\Users\\juanr\\Documents\\Tests\\Upwork2\\HomeTask\\HomeTask.Service\\HomeTask.Service.csproj"
+              },
+              "C:\\Users\\juanr\\Documents\\Tests\\Upwork2\\HomeTask\\HomeTask.View.Models\\HomeTask.View.Models.csproj": {
+                "projectPath": "C:\\Users\\juanr\\Documents\\Tests\\Upwork2\\HomeTask\\HomeTask.View.Models\\HomeTask.View.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

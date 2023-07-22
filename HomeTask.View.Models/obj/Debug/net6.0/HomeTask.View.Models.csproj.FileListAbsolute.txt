@@ -1,0 +1,12 @@
+C:\Users\juanr\Documents\Tests\Upwork2\HomeTask\HomeTask.View.Models\bin\Debug\net6.0\HomeTask.View.Models.deps.json
+C:\Users\juanr\Documents\Tests\Upwork2\HomeTask\HomeTask.View.Models\bin\Debug\net6.0\HomeTask.View.Models.dll
+C:\Users\juanr\Documents\Tests\Upwork2\HomeTask\HomeTask.View.Models\bin\Debug\net6.0\HomeTask.View.Models.pdb
+C:\Users\juanr\Documents\Tests\Upwork2\HomeTask\HomeTask.View.Models\obj\Debug\net6.0\HomeTask.View.Models.csproj.AssemblyReference.cache
+C:\Users\juanr\Documents\Tests\Upwork2\HomeTask\HomeTask.View.Models\obj\Debug\net6.0\HomeTask.View.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\juanr\Documents\Tests\Upwork2\HomeTask\HomeTask.View.Models\obj\Debug\net6.0\HomeTask.View.Models.AssemblyInfoInputs.cache
+C:\Users\juanr\Documents\Tests\Upwork2\HomeTask\HomeTask.View.Models\obj\Debug\net6.0\HomeTask.View.Models.AssemblyInfo.cs
+C:\Users\juanr\Documents\Tests\Upwork2\HomeTask\HomeTask.View.Models\obj\Debug\net6.0\HomeTask.View.Models.csproj.CoreCompileInputs.cache
+C:\Users\juanr\Documents\Tests\Upwork2\HomeTask\HomeTask.View.Models\obj\Debug\net6.0\HomeTask.View.Models.dll
+C:\Users\juanr\Documents\Tests\Upwork2\HomeTask\HomeTask.View.Models\obj\Debug\net6.0\refint\HomeTask.View.Models.dll
+C:\Users\juanr\Documents\Tests\Upwork2\HomeTask\HomeTask.View.Models\obj\Debug\net6.0\HomeTask.View.Models.pdb
+C:\Users\juanr\Documents\Tests\Upwork2\HomeTask\HomeTask.View.Models\obj\Debug\net6.0\ref\HomeTask.View.Models.dll

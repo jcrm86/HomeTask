@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HomeTask.Data.Models\HomeTask.Data.Models.csproj" />
+    <ProjectReference Include="..\HomeTask.Data\HomeTask.Data.csproj" />
+    <ProjectReference Include="..\HomeTask.View.Models\HomeTask.View.Models.csproj" />
+  </ItemGroup>
+
+</Project>
