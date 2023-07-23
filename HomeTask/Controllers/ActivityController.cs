@@ -11,16 +11,14 @@ namespace HomeTask.Controllers
     [ApiController]
     public class ActivityController : ControllerBase
     {
-        private readonly ILogger<ActivityController> _logger;
         private readonly IActivityService _activityService;
 
         /// <summary>
         ///     Creates an instance of Activity controller
         /// </summary>
         /// <param name="logger"></param>
-        public ActivityController(ILogger<ActivityController> logger, IActivityService activityService)
+        public ActivityController(IActivityService activityService)
         {
-            _logger = logger ?? throw new ArgumentException(nameof(logger));
             _activityService = activityService ?? throw new ArgumentException(nameof(activityService));
         }
 
@@ -39,13 +37,13 @@ namespace HomeTask.Controllers
         public async Task<ActionResult> Create([FromBody] Checkin data, CancellationToken token)
         {
 
-            if (data != null && !ModelState.IsValid)
+            if (data == null || !ModelState.IsValid)
             {
                 return Problem(detail: "Invalid Checkin ",
                     statusCode: StatusCodes.Status400BadRequest);
             }
 
-            var result = await _activityService.ActivityCheckin(data.ActivityId, data.ActivityId, data.StudentPassword, token);
+            var result = await _activityService.ActivityCheckin(data.ActivityId.Value, data.StudentId.Value, data.StudentPassword, token);
 
             if (result.HttpStatusCode != (int)HttpStatusCode.OK)
             {

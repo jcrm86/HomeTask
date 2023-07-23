@@ -119,3 +119,5 @@ C:\Users\juanr\Documents\Tests\Upwork2\HomeTask\HomeTask.Tests\obj\Debug\net6.0\
 C:\Users\juanr\Documents\Tests\Upwork2\HomeTask\HomeTask.Tests\obj\Debug\net6.0\HomeTask.Tests.pdb
 C:\Users\juanr\Documents\Tests\Upwork2\HomeTask\HomeTask.Tests\obj\Debug\net6.0\HomeTask.Tests.genruntimeconfig.cache
 C:\Users\juanr\Documents\Tests\Upwork2\HomeTask\HomeTask.Tests\obj\Debug\net6.0\ref\HomeTask.Tests.dll
+C:\Users\juanr\Documents\Tests\Upwork2\HomeTask\HomeTask.Tests\bin\Debug\net6.0\Castle.Core.dll
+C:\Users\juanr\Documents\Tests\Upwork2\HomeTask\HomeTask.Tests\bin\Debug\net6.0\Moq.dll

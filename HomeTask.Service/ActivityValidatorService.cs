@@ -26,7 +26,7 @@ namespace HomeTask.Service
             //Validates if activity is between the hours
             var resultedActvity = await _activityData.GetActivity(activityId, token);
 
-            if (resultedActvity == null) 
+            if (resultedActvity.HttpStatusCode == (int)HttpStatusCode.BadRequest) 
             {
                 return new Result<Activity>((int)HttpStatusCode.BadRequest, "No data found");
             }

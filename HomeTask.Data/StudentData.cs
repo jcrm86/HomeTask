@@ -1,12 +1,7 @@
 ﻿using HomeTask.Data.Interfaces;
 using HomeTask.Data.Models;
 using HomeTask.Utils;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace HomeTask.Data
 {

@@ -51,7 +51,7 @@ namespace HomeTask.Data
         public Result<List<AttendedActivities>> GetAttendedActivity(int activityId, int studentId, CancellationToken token)
         {
                 var attendedActivity = _mockedAttendenceActivity.Where(a => a.ActivityId == activityId && a.StudentId == studentId);
-                if (attendedActivity != null)
+                if (attendedActivity != null && attendedActivity.Any())
                 {
                     var result = new Result<List<AttendedActivities>>((int)HttpStatusCode.OK, "Attended activity ok");
                     result.Data = attendedActivity.ToList();
@@ -79,7 +79,6 @@ namespace HomeTask.Data
             result.Data = newAttendence;
             return result;
         }
-
 
         private async Task<List<Activity>> MockedActivitiesData()
         {
